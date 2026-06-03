@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Agro Forte: Conservação e Futuro Sustentável</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <div class="logo">Agrinho 2026</div>
+        <nav>
+            <a href="#inicio">Início</a>
+            <a href="#importancia">Importância</a>
+            <a href="#simulador">Simulador</a>
+        </nav>
+    </header>
+
+    <section id="inicio" class="hero">
+        <div class="hero-content">
+            <h1>Agro Forte: Futuro Sustentável</h1>
+            <p>O equilíbrio perfeito entre a produção agrícola e a conservação das nossas árvores e florestas.</p>
+            <a href="#simulador" class="btn">Calcule seu Impacto</a>
+        </div>
+    </section>
+
+    <section id="importancia" class="content-section">
+        <h2>Por que conservar as árvores no Agro?</h2>
+        <p>As árvores não são inimigas da produção; elas são aliadas fundamentais. No Agronegócio Sustentável, a preservação da vegetação nativa garante benefícios mútuos para o produtor e para a natureza.</p>
+        
+        <div class="cards">
+            <div class="card">
+                <h3>Proteção do Solo</h3>
+                <p>As raízes das árvores evitam a erosão e mantêm os nutrientes da terra protegidos contra chuvas fortes.</p>
+            </div>
+            <div class="card">
+                <h3>Ciclo da Água</h3>
+                <p>Florestas preservadas ajudam a manter as nascentes vivas, garantindo água para a irrigação no futuro.</p>
+            </div>
+            <div class="card">
+                <h3>Biodiversidade</h3>
+                <p>Árvores atraem polinizadores naturais (como abelhas) que aumentam a produtividade das lavouras.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="simulador" class="interactive-section">
+        <h2>Simulador de Impacto Verde</h2>
+        <p>Descubra o impacto positivo ao plantar ou conservar árvores na sua propriedade ou comunidade!</p>
+        
+        <div class="simulator-box">
+            <label for="arvores-input">Quantas árvores você deseja plantar ou conservar?</label>
+            <input type="number" id="arvores-input" min="0" placeholder="Ex: 10">
+            <button onclick="calcularImpacto()">Calcular Impacto</button>
+            
+            <div id="resultado" class="hidden">
+                <h3>Seu Impacto Estimado por Ano:</h3>
+                <p>🌱 <strong>Oxigênio gerado:</strong> <span id="oxigenio">0</span> pessoas respirando por um ano.</p>
+                <p>💧 <strong>Água retida no solo:</strong> <span id="agua">0</span> litros economizados/protegidos.</p>
+                <p>☁️ <strong>CO₂ absorvido:</strong> <span id="co2">0</span> kg de gás carbônico retirados da atmosfera.</p>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2026 Projeto Agrinho - Foco em Conservação de Árvores. Desenvolvido com 💚</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
